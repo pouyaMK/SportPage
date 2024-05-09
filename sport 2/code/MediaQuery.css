@@ -1,0 +1,546 @@
+/* برای عکس صفحه اصلی و متن کناری آن */
+@media screen and (max-width:1270px) {
+    .sec-main-left > img{
+        width: 620px;
+    }
+    #main-top > h1{
+        font-size:50px;
+        
+    }
+    #main-top{
+        display: flex;
+        align-items: flex-start;
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+}
+
+/* برای عکس صفحه اصلی و متن کناری آن */
+@media screen and (max-width:1005px) {
+    .sec-main-left > img{
+        width: 500px;
+    }
+}
+
+/* برای مشاهده محصولات در صفحه اول سایت */
+@media screen and (max-width:1241px) {
+    #main-bottom > a{
+        font-size: 12px;
+        padding: 0;
+    }
+}
+
+
+/* برای ایتم های درون هدر */
+@media screen and (max-width:1258px) {
+    #nav-bar > a{
+        margin: 0px 3px;
+    }
+    
+}
+
+/* برای ایتم های درون هدر */
+@media screen and (max-width:1079px) {
+    .search-container{
+        width: 90%;
+    }
+
+    #nav-bar > a{
+        margin: 0;
+        font-size: 13px;
+    }
+}
+
+/* برای همبرگر منو در هدر */
+@media screen and (max-width:1003px) {
+    .search-container{
+        display: none;
+    }
+
+    #nav-bar > a{
+        display: none;
+    }
+
+    .humberger-a{
+        display: flex;
+    }
+}
+
+/* برای منو سرچ بالا */
+ @media screen and (max-width:952) {
+    .search-container{
+        width: 100%;
+    }
+} 
+
+
+@media screen and (max-width: 810px) {
+    .sec-main-right{
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+
+    .main{
+        /* border: 2px solid red; */
+        height: auto;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .sec-main-left > img{
+        width: 310px;
+    }
+}
+
+/* حذف عکس از مین و کل متن دیو را قرار دادن */
+@media screen and (max-width:593px) {
+   
+    .sec-main-left{
+        display: none;
+    }
+
+    .sec-main-right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid green; */
+        padding: 10px;
+    }
+
+    #main-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main-top{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+/* برای درست کردن دیو چرا خرید از ما */
+@media screen and (max-width:1137px) {
+    #kharid-right > h2{
+        font-size: 24px;
+    }
+
+    #kharid-right > p{
+        text-align: center;
+    }
+}
+    
+
+@media screen and (max-width:1114px){
+    .kharid-container{
+        /* border: 1px solid red; */
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #kharid-left{
+        /* border: 2px solid black; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #kharid-left > .kharid-items{
+        margin: 0px 6px;
+    }
+}
+
+
+
+@media screen and (max-width:861px){
+    .kharid-container{
+            /* border: 1px solid red; */
+            height: 50vh;
+            display: flex;
+            flex-direction: column;     
+    }
+
+    .kharid-items > h4,p{
+        font-size: 8px;
+    }
+
+    .kharid-items{
+        width: 17%;
+    }
+}
+
+@media screen and (max-width:481px){
+
+    .kharid-container{
+        /* border: 1px solid red; */
+        height: 136vh;
+        display: flex;
+        flex-direction: column;     
+    }
+
+    #kharid-left{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 135vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #kharid-left > .kharid-items{
+        margin: 5px 0px;
+        width: 35%;
+    }
+
+    .kharid-items > h4,p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .kharid-items{
+        padding: 10px;
+    }
+
+    #kharid-right{
+        width: 100%;
+    }
+
+
+    #kharid-right > h2{
+        width:80%;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:727px) {
+    #kharid-right{
+        width: 100%;
+    }
+    #kharid-right > h2{
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:380px){
+    #kharid-right{
+        width: 100%;
+    }
+
+    #kharid-right > h2{
+        width: 60%;
+        text-align: center;
+    }
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width:1200px){
+    .box-items > .a-icon-svg{
+        display: none;
+    }
+
+    .a-p{
+        width: 50%;
+        
+        text-align: center;
+        padding: 15px 6px;
+    }
+
+    .box-items > p{
+        font-size: 10px;
+    }
+
+    #box1,#box2,#box3,#box4,#box5{
+        height: 33vh;
+    }
+
+    .box-items{
+        height: 20%;
+    }
+
+
+    .sec-box > img{
+        height: 80%;
+    }
+}
+
+
+@media screen and (max-width:863px){
+
+    .porfrosh-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .porfrosh{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+
+
+    .mahsolat-frosh-container{
+        height: auto;
+    }
+
+    .mahsolat-frosh{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        /* margin-bottom: 2000px; */
+        /* background-color: red; */
+    }
+
+    .mahsolat-frosh > .sec-box{
+        margin: 10px 0px;
+        width: 170px;
+    }
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media screen and (max-width:1077px){
+    #sport-item-right > a{
+        width: 95%;
+    }
+
+    .sport-item{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 63vh;
+    }
+
+    #set-sport{
+        width: 95%;
+        border-radius: 14px;
+    }
+    
+}
+
+
+@media screen and (max-width:980px) {
+    .set-sport-container{
+        height: auto;
+    }
+
+    #set-sport{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .sp{
+        margin: 11px 0;
+        width: 220px;
+    }
+
+    .set-header-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .set-header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+
+    #sport-item-right{
+        width: 100%;
+    }
+
+    #sport-item-right > img{
+        width: 250px;
+    }
+
+    #sport-item-right > a{
+        width: 70%;
+        font-size: 13px;
+    }
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width:442px){
+    .brand-items{
+        width: 25%;
+    }
+
+    .brand-container{
+        height: 25vh;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width:1041px){
+    .main-footer{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-footer > a{
+        margin: 20px 0px;
+    }
+
+    #foot-item2{
+        height: 8vh;
+    }
+
+    #foot-item1{
+        height: 8vh;
+    }
+
+    .social-media > a{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:796px){
+    .footer-container{
+        height: auto;
+    }
+
+    #foot-item2{
+        width: 60%;
+    }
+
+    #foot-item2 > a{
+        width: 60px;
+    }
+
+    .a-foot > svg{
+        width: 30px;
+    }
+}
+
+
+@media screen and (max-width:625px){
+    .footer-container{
+        height: auto;
+    }
+
+    #foot-item1{
+        width: 60%;
+    }
+
+    .post > h2{
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:382px){
+    .footer-container{
+        height: auto;
+    }
+
+    #foot-item2{
+        width: 75%;
+    }
+
+    #foot-item1{
+        width: 75%;
+    }
+
+    #foot-item2 > a{
+        width: 75px;
+    }
+
+    .a-foot > svg{
+        width: 25px;
+    }
+
+    .post > h2{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:636px) {
+    .footer-container{
+        padding-bottom: 12vh;
+    }
+
+    #p-reserve{
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:492px) {
+    .footer-container{
+        padding-bottom: 20vh;
+    }
+
+    #p-reserve{
+        color: white;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:385px) {
+    .footer-container{
+        padding-bottom: 27vh;
+    }
+
+    #p-reserve{
+        color: white;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:332px) {
+    .footer-container{
+        padding-bottom: 37vh;
+    }
+
+
+}
+
+

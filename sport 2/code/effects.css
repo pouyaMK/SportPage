@@ -1,0 +1,91 @@
+.sec-left-head > a:hover{
+  text-shadow: 4px 4px 10px rgb(91,99,198);
+  margin-bottom: 6px;
+  color: black;
+}
+
+.btn-search:hover{
+    box-shadow: 4px 4px 4px rgb(91,99,198);
+    border-radius: 15px;
+}
+
+.btn-search{
+    transition: all 0.3s linear;
+}
+
+.main-right-items > a:hover{
+    box-shadow: 7px 7px 14px rgb(53, 52, 52);
+    transform: translateX(-10px);
+}
+.main-right-items > a{
+    transition: all 0.3s linear;
+}
+
+
+.kharid-items:hover{
+    transform: translateY(-10px);
+}
+
+.kharid-items{
+    transition: all 0.2s linear;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
+/* .ersal:hover ~ .amniat{
+    filter: blur(2px);
+}
+.ersal:hover ~ .sorat{
+    filter: blur(2px);
+}
+.ersal:hover ~ .tajrobe{
+    filter: blur(2px);
+}
+.ersal:hover ~ .tazmin{
+    filter: blur(2px);
+}
+
+
+
+.amniat:hover ~ .ersal{
+    filter: blur(2px);
+}
+.amniat:hover ~ .sorat{
+    filter: blur(2px);
+}
+.amniat:hover ~ .tajrobe{
+    filter: blur(2px);
+}
+
+.amniat:hover ~ .tazmin{
+    filter: blur(2px);
+} */
+/* ///////////////////////////////////////////////////////////////// */
+
+.a-p:hover{
+    color: var(--white);
+    background-color: var(--border-bottom-darkPurple);
+
+}
+
+.a-icon-svg:hover{
+    background-color: var(--border-bottom-darkPurple);
+}
+
+#sport-item-right > a{
+    transition: all 0.2s linear;
+}
+
+#sport-item-right > a:hover{
+    color: black;
+    border-radius: 5px;
+}
+
+
+.sp{
+    transition: all 0.3s linear;
+}
+.sp:hover{
+    transform:rotate(3deg);
+}
+
